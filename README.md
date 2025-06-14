@@ -32,7 +32,6 @@ Perfect for developers working in **layered architecture** projects where clean,
 │
 ├── Program.cs # Entry point of the console app
 ├── DataManager.cs # Contains logic to run SQL & generate code
-├── README.md # Project documentation
 ---
 
 ## 🧪 On Running the App:
