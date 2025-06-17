@@ -22,18 +22,6 @@ Perfect for developers working in **layered architecture** projects where clean,
 - **IDE:** Visual Studio / Rider
 ---
 
-## 📁 Folder Structure
-│
-├── Database Scripts/
-│ └── Create_Procedure.sql # SQL for auto-generating BOL class content
-│
-├── BOL/
-│ └── [GeneratedClasses].cs # Output C# class files
-│
-├── Program.cs # Entry point of the console app
-├── DataManager.cs # Contains logic to run SQL & generate code
----
-
 ## 🧪 On Running the App:
 1. Validates if the SQL script (`Create_Procedure.sql`) exists
 2. Executes the script to create or drop+create the stored procedure
